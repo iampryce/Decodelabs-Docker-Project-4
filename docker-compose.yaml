@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    image: decodelabs-project4:latest
+    container_name: decodelabs-project4
+    ports:
+      - "80:80"
+    restart: unless-stopped
