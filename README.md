@@ -73,7 +73,7 @@ EXPOSE 80
 ```bash
 docker build -t decodelabs-project4:latest .
 ```
-
+![alt text](image.png)
 ---
 
 # Run the Container
@@ -81,38 +81,36 @@ docker build -t decodelabs-project4:latest .
 ```bash
 docker run -d -p 80:80 --name decodelabs-project4 decodelabs-project4:latest
 ```
-
----
+![alt text](image-1.png)
 
 # Verify Running Containers
 
 ```bash
 docker ps
 ```
-
----
+![alt text](image-2.png)
 
 # Open in Browser
 
 ```text
 http://localhost:80
 ```
+![alt text](image-3.png)
 
----
 
 # Run with Docker Compose
 
 ```bash
 docker compose up -d
 ```
-
+![alt text](image-5.png)
 Stop the container:
 
 ```bash
 docker compose down
 ```
 
----
+![alt text](image-6.png)
 
 # Useful Docker Commands
 
@@ -123,8 +121,8 @@ docker stop decodelabs-project4
 docker rm decodelabs-project4
 docker rmi decodelabs-project4:latest
 ```
+![alt text](image-4.png)
 
----
 
 # Key Learning Outcomes
 
